@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.main img {
+    width: 100%;
+    height: 760px;
+}
+
+.divCalculator {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    left: 250px;
+    right: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divCalculator img {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.inpText {
+    position: absolute;
+    top: 20px;
+    right: 180px;
+    width: 400px;
+    height: 60px;
+    left: 90px;
+    border-radius: 10px;
+}
+
+.clrBtn {
+    width: 340px;
+    height: 50px;
+    left: 120px;
+    position: relative;
+    right: 80px;
+    bottom: 400px;
+    margin-top: 40px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 80px;
+    height: 60px;
+    margin-top: 5px;
+    position: relative;
+    right: 80px;
+    left: 130px;
+    bottom: 400px;
+    border-radius: 10px;
+}
